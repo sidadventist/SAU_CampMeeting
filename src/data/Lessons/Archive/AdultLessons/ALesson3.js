@@ -1,0 +1,68 @@
+const htmlContent = `
+<p><strong>INTRODUCTION</strong></p>
+<p>Although the disruptive effect of COVID-19 pandemic has helped enhance our appreciation of the place of media in God&rsquo;s mission, it is important to remember that the use of media to advance God&rsquo;s word has its foundations in the Bible. The media used back then is much different from what is now available, however, the concept remains the same that God expects his children to use all means available to them to share His word with the world. The global scope of the Gospel commission demands that the use of media in proclamation and nurturing be taken seriously. Many who preceded us in this faith accomplished much for God with the very little they had compared to what we now have. What excuse will you and I give for not using what we have to advance the Lord&rsquo;s work? As traditional methods of reaching people with God&rsquo;s word are becoming less effective, it is important to go where the people are gathered in cyberspaces and share God&rsquo;s word with them there. While doing that, we should always be aware of the dangers that are lurking in media spaces. The dangers should not, however, keep us from maximizing on the benefits. Media is a great tool both for in-reach and outreach.</p>
+<p><strong>I Will Go: God&rsquo;s Way</strong></p>
+<p>The use of media has always been instrumental for the spread of God&rsquo;s word, beginning with the prophets who had to write God&rsquo;s words down and record His acts among His people. Many times God instructed prophets to write His messages down (see Exod. 17: 14; 24:4; 34:27; Isa. 30:8; Jer. 26:2; Hab. 2:2; Rev. 1:11). These are only a few of the many verses where God instructs people to write His words down. In a few instances, God himself wrote things down (Exod. 34:28; cf. Deut. 4:13; 5:22; John 8:6).</p>
+<p><strong><em>Discussion</em></strong>: In your view, why do you think God was so particular to have things written down? Was just speaking not enough?</p>
+<p>This lesson is about ministering to others through media, that is any purposeful interaction that brings and keeps people close to Christ. Media refers to the means and tools we use to communicate with others people. We can either use <em>Mass Media</em> (Radio, Television; Newspapers) or <em>Social Media</em> (WhatsApp; Facebook; Twitter, e.t.c.). There are differences between the two types of media. The use of Mass Media is older in the Church. Technological advances have, however, also brought Social Media, making it possible for just about anyone to share God&rsquo;s Word anytime and from any place.</p>
+<p><strong><em>Discussion</em></strong>: <em>What are the differences of going physically and going digitally with God&rsquo;s word?</em></p>
+<p><strong>I Will Go: To All the World</strong></p>
+<p>God has always had a global focus for the spreading of his word (Gen. 12:3). It also appears as though the speed and wide geographical coverage of His mission in the last days foresaw the emergence and advancement of digital technology. Consider the following scriptures: (Matt. 24:14; 28:19; Rev. 7:9; 14:6).</p>
+<p>The Lord has an urgent message of supreme importance to take to the whole world. There is a mechanism to be used, in the thought of these verses that seem to allow the travelling of a message until it is spread across a wide geographical space. People in geographically different places preaching the same message. Revelation 14:6-11 represents three angels who are flying with messages of God&rsquo;s final warning to a doomed world. Flying represents speed and urgency. This could also point us to the fast transfer of information from one point to another instantly, as modern technology now allows. In God&rsquo;s plan of salvation, all people regardless of their ethnicity, tribe, race geographic location or what, should find the same message that gives them the hope of salvation.</p>
+<p>EGW further counsels in a letter published in the Review and Herald of May 21, 1894: <em>&lsquo;The truth must be carried from city to city, from street to street, from family to family. Every method by which access may be gained to the homes of the people must be tried. The messenger must become acquainted with the people. The truth must be carried from province to province, from kingdom to kingdom. The highways and byways must be thoroughly gleaned and the message must spread from continent to continent, until the whole earth is belted with the gospel of our lord Jesus Christ </em>(The Bible Echo Ch. 45).</p>
+<p><strong><em>Discussion</em></strong>: <em>Without media, how and how long do you think it would take to reach the world with the word of God? How does media help in fulfilling the Great Commission?</em></p>
+<p><strong>I Will Go: With What I Have</strong></p>
+<p>Taking the Gospel message to all the world really seems like an impossible task. Even in our cities, there are more and more homes that one cannot enter. Do we not feel like Moses sometimes? When he was sent to the Pharaoh to liberate the people of Israel. He wondered how such a task could be done. God asked him a question that is pertinent even for our times, &ldquo;What is in your hand?&rdquo; (Exod. 4:2). The question implies God uses ordinary things close to us to accomplish great tasks. Moses was shocked to see the power that was in the simple rod in his hand when it turned into a snake. With God&rsquo;s blessing, the simple tools in our hands can be great instruments for the deliverance of His people now in spiritual bondage.</p>
+<p>It is easy to focus on all the things we do not have. God focuses on what we do have. With His blessing, those simple things can become great blessings to many. The same God who physically fed multitudes (Matt. 14:13-21; Mark 6:31-44; John 6:1-14), still wants to spiritually feed multitudes using what is available to us. The question is, what is in your hand?</p>
+<br/>
+<p><strong>WhatsApp</strong><br>
+- Can use regular mode or status<br/>
+- No limit to what you may post<br/>
+- Provides instant feedback on who has read or viewed it<br/>
+- You can select target audience, individuals or groups<br/>
+- It can send pictures, videos, audios or texts.<br/>
+- You can change it anytime within 24hours<br/></p>
+
+<p><strong>FaceBook; Tweeter; Instagram; Telegram</strong><br/>
+- Can support audio, video and motion pictures<br/>
+- Communicate and preach to people in your circles<br/>
+- Can invite people to evangelistic campaigns or even share snippets from such programs<br/>
+- Share links of digital programs for the gospel to reach far and wide<br/>
+</p>
+<p><strong>YouTube; Radio; Television</strong><br/>
+- These platforms reach many people, over space and time<br/>
+- Radio and Television are expensive for putting up content, but affordable for most listeners and viewers<br/>
+- YouTube if the largest video-sharing platform in the world<br/>
+- Once material is share on YouTube, it will always be accessible<br/>
+- YouTube provides detailed analytics of views<br/>
+- YouTube pays channel owners with many subscribers<br/></p>
+
+<p>On 17 October, 1517, Martin Luther only had a paper, a hammer and a nail. He used these simple tools to post a message on the Castle Church door in Wittenberg. It went viral and effectively launched the Protestant Reformation in Germany. What do you have in your hand and what are you doing with it?</p>
+<p><strong><em>Discussion</em></strong>: <em>On which of these media platforms do you usually access uplifting spiritual content? What has been your experience using any of these platforms to share God&rsquo;s word?</em></p>
+<p><strong>I Will Go: Where the People Are</strong></p>
+<p>There used to be time when doing public evangelism was easy. All that one needed was a tent and a PA System, then people would come. In most places, those days are gone. People are spending more time in media. Gospel tents now needs to be pitched in cyberspaces, because that is where the people are these days.</p>
+<p>According to <em><u>www.datareportal.com</u></em> This is an organisation that deals with Global Digital Insights, <em>there are over 4.95 billion internet users in the world today.</em> And projections are that over 70% of the world population will be online by 2030. In Zimbabwe, according the</p>
+<p>Potraz 2020 sector report &ldquo;<em>a total of 13,191,708 people by end of 2020 were actively subscribing to mobile telephone technology.&rdquo;</em> The same report also points out that &ldquo;<em>Internet penetration rate stood at 60.9% at the close of 2020 to reach 8,875,649 subscribers</em>.&rdquo; All this means that it is now possible to reach most people in Zimbabwe and beyond, without having to leave the comfort of your home. Imagine how much Paul would have done if he had lived during out time!</p>
+<p>Sharing the Gospel in digital spaces demands that we take into consideration certain things for greater effectiveness. <em>Time</em>. Content that is shared digitally should be short and to the point. The first few seconds are critical to arrest a viewer/listener&rsquo;s attention. Good delivery skills are crucial to retain that attention for the duration of the message. <em>Quality</em>. Viewers/listeners have become accustomed to high quality videos/audios. They demand good quality, or else they well simply switch to some other content. God is particular about beauty and high quality too (see Gen. 2:9; Exod. 28:2, 40). <em>Content</em>. There is no substitute for content that is relevant and timely. The Gospel is the same and will never change, but we should be intentional about its packaging for enhanced appeal. Rightly does Trisney Wiedemann assert that &ldquo;As technology continues to develop, the Church must continue to adapt in order to strategically place the gospel where people will find and hear it&rdquo;&nbsp;(&ldquo;Social Media as a Tool for Evangelism,&rdquo; <em>Spectrum Magazine</em>, May 1, 2022).</p>
+<p><strong><em>Discussion</em></strong>: <em>What presence does you church have in cyberspace? What initiatives is your local church putting in place to reach people where they are and what are the results? If your church were to close down today, what digital footprints would it leave for generations to come?</em></p>
+<p><strong>I Will Go: In the Fear of the Lord</strong></p>
+<p>Like any good tool, media too needs to be handled with care. Better still, we can handle with prayer. There are many benefits of using media, but before we close, we should also mention that there are many dangers and temptations that are found in media spaces. Such things as cyberbullying; cybersex and endless heresies are some of such dangers. The devil is also using media to target people and undermine God&rsquo;s mission. How can the following verses help us to be focused as we use media for God&rsquo;s glory (Ps. 101:3; 1 Cor. 10:31; Phil. 4:8)? The dangers posed by social media are real, but so are the opportunities. While circumventing the dangers, we should take full use of the benefits.</p>
+<p>Having said all this, it is important to note that while media can enable the Church to reach many people at once and continuously, it is only the Holy Spirit who can turn views into membership. Without Christ we can do nothing, even with the best technology at our disposal (John 15:5). It is for the reason that Jesus called on His disciples to wait in Jerusalem until the Holy Spirit would come and empower them for an effective ministry (Acts 1:4, 8). When we have done all we can to share the gospel through media, we still need to call on the one who convicts the world of sin to accompany each message that goes out (John 16:8), so that it does not return empty, but accomplished the purpose for which it is sent out (Isa. 55:11).</p>
+<p><strong><em>Discussion</em></strong><em>: Do you know, and can you share of any persons who have been greatly benefited by God&rsquo;s word through media? With all that technology can do, is there still need for personal contact with members and potential members?</em></p>
+<p><strong>CONCLUSION</strong></p>
+<p>In closing, pastor Ted Wilson once tweeted. &ldquo;When we meet an individual who has lost hope, dear Jesus, help us to encourage and share with them the love you have for them. Acts 13:47: &lsquo;For so the Lord has commanded us: &lsquo;I have set you as a light to the Gentiles, That you should be for salvation to the ends of the earth.&rsquo;&nbsp;Beloved, represent Christ. Live for Jesus for that&rsquo;s all that matters. On your Computer, on your handheld device, cell phone or tablet, using cameras, microphones, projectors and PA systems. On our local church websites, bulletins and WhatsApp groups, lets shed the light &lsquo;til He comes. Amen.&rdquo;</p>
+<p><em>Authored by</em></p>
+<p>Watson Mbiriri (Communication Director, ZEUC)</p>
+<p>Kudzai Carlos Chikumbirike, CISA, MTech (IT) (<em>Trainee Pastor, Solusi University</em>)</p>
+<p><strong><u>References &amp; Sources</u></strong></p>
+<ol>
+<li>The KJV Bible</li>
+<li>The Ellen White Estate</li>
+<li>The Potraz Sector Report 2020</li>
+<li>The ITU Global Sector report 2020</li>
+<li>@pastortedwilson Tweeter account ( using Tweeter for iphone)</li>
+<li>Trisnery Wiedemann. &ldquo;Social Media as a Tool for Evangelism.&rdquo; <em>Spectrum Magazine</em>. May 1, 2022. https://spectrummagazine.org/news/2022/social-media-tool-evangelism</li>
+</ol>
+`
+
+export default htmlContent
