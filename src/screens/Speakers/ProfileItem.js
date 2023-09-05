@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, ScrollView } from 'react-native';
+import { COLORS } from '../../components/constants';
 // import { PROFILE_DATA } from '../../data/profiles/profiles'
 const Resume = ({ navigation, route }) => {
     const img1 = route.params.data.icon
@@ -51,6 +52,8 @@ const styles = StyleSheet.create({
         width: 100,
         height: 100,
         borderRadius: 50,
+        borderColor: COLORS.gray,
+        borderWidth: 0.2
     },
     name: {
         fontSize: 24,

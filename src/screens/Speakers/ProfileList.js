@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { StyleSheet, Text, View, Image, Alert, TextInput, FlatList, TouchableOpacity } from 'react-native'
 import { PROFILE_DATA } from '../../data/profiles/profiles'
 import { useNavigation } from '@react-navigation/native'
+import { COLORS } from '../../components/constants'
 
 
 export default ProfileList = () => {
@@ -88,6 +89,8 @@ const styles = StyleSheet.create({
     height: 45,
     borderRadius: 20,
     marginLeft: 20,
+    borderWidth: 0.2,
+    borderColor: COLORS.offWhite
   },
   name: {
     fontSize: 20,

@@ -48,12 +48,12 @@ class SettingsScreen extends Component {
                         <CustomText>Sample Text</CustomText>
                     </View>
 
-                    <Button title="Send Email Feedback" onPress={() => Linking.openURL('mailto:appdev@nzc.adventist.org?subject=SAU Camp Meeting app feedback')} />
+                    {/* <Button title="Send Email Feedback" onPress={() => Linking.openURL('mailto:appdev@nzc.adventist.org?subject=SAU Camp Meeting app feedback')} /> */}
                     <Divider style={{ marginVertical: "2%" }} />
-                    <Button title="About Developer" onPress={() => { this.props.navigation.navigate('AboutUs') }} />
+                    {/* <Button title="About Developer" onPress={() => { this.props.navigation.navigate('AboutUs') }} /> */}
                 </View>
                 <View >
-                    <View style={{ width: width, borderColor: "#d4d4d4", borderBottomWidth: 1, alignSelf: 'center', backgroundColor: COLORS.primaryText }} ><Text style={{ alignSelf: 'center', color: COLORS.secondary }}>developed by NZCIT</Text></View>
+                    <View style={{ width: width, borderColor: "#d4d4d4", borderBottomWidth: 1, alignSelf: 'center', backgroundColor: COLORS.primaryText }} ><Text style={{ alignSelf: 'center', color: COLORS.secondary }}></Text></View>
                 </View>
             </View>
         )

@@ -8,7 +8,7 @@ export const HOMESCREEN_DATA = [
     // { id: 4, title: 'Lessons', subTitle: 'Youths', nav: 'LessonY', ico: "book-education" },
     { id: 7, title: 'Extras', subTitle: 'Speaker Profiles', nav: 'Profiles', ico: "book-education" },
     // { id: 5, title: 'Lessons', subTitle: 'Children', nav: 'LessonC', ico: "car-child-seat" },
-    { id: 8, title: 'Media', subTitle: 'Additional Resources', nav: 'Video List', ico: "file-video" },
+    { id: 8, title: 'Media', subTitle: 'Video Presentations', nav: 'Video List', ico: "file-video" },
     { id: 9, title: 'Settings', subTitle: 'Change things', nav: 'Settings', ico: "cog" },
 
 ]

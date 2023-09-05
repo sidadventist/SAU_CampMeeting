@@ -5,6 +5,7 @@ import Navigator from './src/components/navigator';
 import { Provider } from 'react-redux';
 import { Platform, SafeAreaView } from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
+import { LogLevel, OneSignal } from 'react-native-onesignal';
 
 const reducer = (state = 12, action) => {
   // console.log(state)
@@ -19,17 +20,15 @@ const reducer = (state = 12, action) => {
 }
 const store = legacy_createStore(reducer)
 
-// useEffect(() => {
-//   SplashScreen.hide()
-// })
 
-if (Platform.OS === 'ios') {
-  SplashScreen.hide()
-}
+
+
 function App(): JSX.Element {
 
   useEffect(() => {
-    SplashScreen.hide(); //hides the splash screen on app load.
+
+    if (Platform.OS === 'android')
+      SplashScreen.hide(); //hides the splash screen on app load.
   }, []);
 
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
-import { View, Text, Image, StyleSheet, FlatList } from 'react-native';
+import { View, Image, StyleSheet, FlatList } from 'react-native';
 import { COLORS } from '../../components/constants';
 import { PROGRAM_DATA } from '../../data/Program/ProgramData';
-
+import Text from '../../components/CustomText';
 const ScheduleScreen = () => {
 
 
@@ -10,10 +10,10 @@ const ScheduleScreen = () => {
         <View style={styles.classItem}>
             <View style={styles.classContent}>
                 <View style={[styles.card, { backgroundColor: item.bgColor }]}>
-                    <Text style={styles.cardTitle}>{item.title}</Text>
-                    <Text style={styles.cardDate}>{item.date}</Text>
-                    <Text style={styles.cardDate}>{item.startTime} - {item.endTime}</Text>
-                    <Text style={styles.cardSpeaker}>{item.speaker}</Text>
+                    <Text color='#00008B' style={styles.cardTitle}>{item.title}</Text>
+                    <Text color='#00008B' style={styles.cardDate}>{item.date}</Text>
+                    <Text color='#00008B' style={styles.cardDate}>{item.startTime} - {item.endTime}</Text>
+                    <Text color={COLORS.primaryText} style={styles.cardSpeaker}>{item.speaker}</Text>
                 </View>
             </View>
         </View>

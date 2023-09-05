@@ -5,14 +5,14 @@ export const ORGDETAILS = {
     ytURL: '',
     fbURL: '',
     orgName: 'Southern Africa Union Conference',
-    orgAddress: '2 Princess Drive, Newlands',
-    orgCity: 'Harare',
-    phoneNumber1: '+263242746480',
-    phoneNumber2: '+2638677004922',
-    orgEmail: 'info@nzc.adventist.org',
+    orgAddress: '2 Fairview Street Bloemfontein, Free state 9310, South Africa',
+    orgCity: 'Bloemfontein',
+    phoneNumber1: '+27 514478271',
+    phoneNumber2: '',
+    orgEmail: 'info@nsau.adventist.org',
     orgVision: '',
-    orgMission: 'Preparing all people to be followers and disciples of Jesus Christ, Ready for His soon return as commissioned in Revelation 14:6:12',
-    orgValues: 'UNITY\nPRAYER AND BIBLE STUDY\nRELEVANCE\nACCOUNTABILITY\nINTEGRITY\nSACRIFICE,\nEXCELLENCE',
+    orgMission: '',
+    orgValues: '',
     apiUri: 'http://sau.adventist.org/wp-json/wp/v2',
     theme: 'We Are Nearing Home',
     hymnNumber: 'Hymn 185 ',
@@ -54,7 +54,6 @@ export const MARGIN = {
     logo: width * 0.37,
     header: width * 0.1,
     vHeader: height * 0.08
-
 }
 
 export const SIZES = {
