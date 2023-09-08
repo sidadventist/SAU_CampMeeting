@@ -91,7 +91,7 @@ export default StyleSheet.create({
     },
     tinyLogo: {
         width: MARGIN.logo,
-        height: MARGIN.large,
+        height: MARGIN.logo,
         alignSelf: 'center',
         marginTop: MARGIN.medium
     },

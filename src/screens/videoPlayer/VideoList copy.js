@@ -7,13 +7,13 @@ import { COLORS } from '../../components/constants';
 import { KEY } from '../../../key';
 
 
-const MAX_RESULT = KEY.MAX_RESULTS;
-// const PLAYLIST_ID = "PL-k2Gb-DBYo8flY1WfqPLzMFMiQifM4G7" //playlist in the account
-// const PLAYLIST_ID = "PLQHi2ikBzIxjvWTm8bGoPxo-_EWFUhVp7" //playlist in the appdev account
-const PLAYLIST_ID = `${KEY.PLAYLIST_ID}` //playlist in the feedback account
-const API_KEY = `${KEY.API_KEY}`
 
-export default class Home extends Component {
+
+const MAX_RESULT = 15; //the number of videos that will be listed
+const PLAYLIST_ID = 'AIzaSyCccG44mQvGktbiQivgF3e5Xs9SgOKoHxY'//KEY.PLAYLIST_ID //playlist in the account
+const API_KEY = 'AIzaSyCccG44mQvGktbiQivgF3e5Xs9SgOKoHxY'//KEY.API_KEY //the key to allow youtube to serve the videos 
+
+export default class VideoPlaylist extends Component {
 
     constructor(props) {
         super(props);
@@ -33,7 +33,7 @@ export default class Home extends Component {
         const json = await response.json();
         this.setState({ videos: json['items'] });
 
-
+        // console.log(json)
     };
     _onRefresh() {
         this.setState({ isFetching: true })
@@ -67,7 +67,7 @@ export default class Home extends Component {
                                         friction={90}
                                         tension={100}
                                         activeScale={0.85}
-                                        color={COLORS.primaryColor}
+                                        color={COLORS.primary}
                                         onPress={() => this.props.navigation.navigate('Video Player', item)}
                                     >
                                         <Avatar source={{ uri: item.snippet.thumbnails.high.url }} size={'large'} />
@@ -76,8 +76,8 @@ export default class Home extends Component {
                                                 {item.snippet.title}
                                             </ListItem.Title>
                                             <ListItem.Subtitle>
-                                                {/* {item.snippet.channelTitle} */}
-                                                Southern Africa Union Conference
+                                                {item.snippet.channelTitle}
+                                                {/* Zimbabwe East Union Conference */}
                                             </ListItem.Subtitle>
                                         </ListItem.Content>
                                     </ListItem>

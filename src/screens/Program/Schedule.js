@@ -10,9 +10,9 @@ const ScheduleScreen = () => {
         <View style={styles.classItem}>
             <View style={styles.classContent}>
                 <View style={[styles.card, { backgroundColor: item.bgColor }]}>
-                    <Text color='#00008B' style={styles.cardTitle}>{item.title}</Text>
+                    <Text color='#00008B' fontWeight={800} style={styles.cardTitle}>{item.title}</Text>
                     <Text color='#00008B' style={styles.cardDate}>{item.date}</Text>
-                    <Text color='#00008B' style={styles.cardDate}>{item.startTime} - {item.endTime}</Text>
+                    <Text color='#00008B' fontWeight={600} style={styles.cardDate}>{item.startTime} - {item.endTime}</Text>
                     <Text color={COLORS.primaryText} style={styles.cardSpeaker}>{item.speaker}</Text>
                 </View>
             </View>

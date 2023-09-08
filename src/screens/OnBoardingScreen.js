@@ -33,13 +33,13 @@ const OnboardingScreen = ({ navigation }) => {
             pages={[
                 {
                     backgroundColor: '#005151',
-                    image: <Image source={require('../../assets/img/tent.png')} style={{ width, height: height * 0.4, resizeMode: 'contain' }} />,
+                    image: <Image source={require('../../assets/img/tents2.png')} style={{ width, height: height * 0.4, resizeMode: 'contain' }} />,
                     title: 'Stay connected',
                     subtitle: 'Thank you for downloading this App.\nYour Companion for the NZC Camp Meeting',
                 },
                 {
                     backgroundColor: '#515151',
-                    image: <Image source={require('../../assets/img/tents3.jpeg')} style={{ width, height: height * 0.4, resizeMode: 'contain' }} />,
+                    image: <Image source={require('../../assets/img/IWILLGO-White.png')} style={{ width, height: height * 0.4, resizeMode: 'contain' }} />,
                     title: 'Get Inspired',
                     subtitle: 'Packed with resources to keep you up to date with the NZC Camp Meetings ',
                 },

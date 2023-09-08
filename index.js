@@ -5,9 +5,9 @@ import App from './App';
 import { name as appName } from './app.json';
 import { LogLevel, OneSignal } from 'react-native-onesignal';
 
+import { KEY } from './key'
 
-
-OneSignal.initialize("b506fca9-d0e3-4c3b-ad68-003cac439400");
+OneSignal.initialize(KEY.ONESIGNAL_ID);
 
 OneSignal.Debug.setLogLevel(LogLevel.Verbose);
 

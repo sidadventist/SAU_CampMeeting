@@ -5,7 +5,7 @@ import Navigator from './src/components/navigator';
 import { Provider } from 'react-redux';
 import { Platform, SafeAreaView } from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
-import { LogLevel, OneSignal } from 'react-native-onesignal';
+
 
 const reducer = (state = 12, action) => {
   // console.log(state)

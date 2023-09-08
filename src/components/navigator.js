@@ -23,10 +23,12 @@ import VideoPlaylist from '../screens/videoPlayer/VideoList';
 import VideoPlayer from '../screens/videoPlayer/VideoPlayer';
 
 import ComingSoon from '../screens/ComingSoon';
+import OnboardingScreen from '../screens/OnBoardingScreen';
 
 import AboutDev from '../screens/AboutDev';
 import ProfileList from '../screens/Speakers/ProfileList'
 import ProfileDetail from '../screens/Speakers/ProfileItem'
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Stack = createNativeStackNavigator()
 const Tab = createBottomTabNavigator()
@@ -47,8 +49,8 @@ function HomeStack() {
     return (
         <Stack.Navigator>
             <Stack.Screen name='Home' component={HomeScreen} options={{ headerShown: false }} />
-            <Stack.Screen name='ThemeSong' component={ThemeSongTabs} options={{ title: `Theme Song: ${ORGDETAILS.themeSongEN}` }} />
-            <Stack.Screen name='Program' component={Schedule} options={{ title: 'Program Outline' }} />
+            <Stack.Screen name='ThemeSong' component={ThemeSongTabs} options={{ title: `Theme Song: ${ORGDETAILS.themeSongEN}`, headerRight: settingsHeader }} />
+            <Stack.Screen name='Program' component={Schedule} options={{ title: 'Program Outline', headerRight: settingsHeader }} />
 
             <Stack.Screen name='Video List' component={VideoPlaylist} />
             <Stack.Screen name='Video Player' component={VideoPlayer} />
@@ -82,13 +84,43 @@ function ProgramTabs() {
         </TopTab.Navigator>
     )
 }
-
+function Onboarding() {
+    return (
+        <Stack.Navigator>
+            <Stack.Screen name='OnBoarding' component={OnboardingScreen} options={{ headerShown: false }} />
+            <Stack.Screen name='Main' component={HomeStack} options={{ headerShown: false }} />
+        </Stack.Navigator>
+    )
+}
 
 export default function Navigator() {
+    const [isFirstLaunch, setIsFirstLaunch] = useState(null)
 
-    return (
-        <NavigationContainer>
-            <HomeStack />
-        </NavigationContainer>
-    )
+    useEffect(() => {
+        AsyncStorage.getItem('alreadyLaunched').then(value => {
+            if (value = null) {
+                AsyncStorage.setItem('alreadyLaunched', 'true')
+                setIsFirstLaunch(true)
+            } else {
+                setIsFirstLaunch(false)
+            }
+        })
+    }, [])
+
+    if (isFirstLaunch == null) {
+        return null
+    } else if (isFirstLaunch == true) {
+        return (
+            <NavigationContainer>
+                <Onboarding />
+            </NavigationContainer>
+        )
+    } else {
+        return (
+            <NavigationContainer>
+                <HomeStack />
+            </NavigationContainer>
+        )
+    }
+
 }

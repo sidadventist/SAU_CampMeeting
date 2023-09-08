@@ -3,7 +3,7 @@ import { View, Button, Alert, StyleSheet, Text } from 'react-native';
 import YoutubePlayer from 'react-native-youtube-iframe';
 import { Icon } from 'react-native-elements';
 import FAS from 'react-native-vector-icons/FontAwesome'
-import { COLORS } from '../../components/constants';
+import { COLORS, MARGIN } from '../../components/constants';
 // import * as constants from '../../components/constants'
 
 
@@ -21,9 +21,9 @@ const VideoPlayer = (props) => {
             setPlaying(false);
             Alert.alert('The End', 'The video has finished playing!');
         }
-        if (state !== 'playing') {
-            setPlaying(false);
-        }
+        // if (state !== 'playing') {
+        //     setPlaying(false);
+        // }
     }
 
     const togglePlaying = () => {
@@ -68,22 +68,25 @@ const VideoPlayer = (props) => {
                     color={COLORS.accent}
                     name="backward"
                 />
-                {/* <ControlIcon
+                <ControlIcon
                     onPress={togglePlaying}
                     color={COLORS.accent}
                     name={playing ? 'pause' : 'play'}
-                /> */}
+                />
                 <ControlIcon
                     onPress={() => seekBackAndForth('forward')}
                     color={COLORS.accent}
                     name="forward"
                 />
             </View>
-            <ControlIcon2
-                onPress={muteVideo}
-                color={isMute ? COLORS.accent : COLORS.secondaryText}
-                name={isMute ? 'volume-up' : 'volume-off'}
-            />
+            <View style={{ marginTop: MARGIN.small }}>
+
+                <ControlIcon2
+                    onPress={muteVideo}
+                    color={isMute ? COLORS.accent : COLORS.secondaryText}
+                    name={isMute ? 'volume-up' : 'volume-off'}
+                />
+            </View>
         </View>
     );
 };

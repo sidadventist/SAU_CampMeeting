@@ -6,24 +6,24 @@ import { Button, Divider, Text } from 'react-native-elements'
 import Icon from 'react-native-vector-icons/FontAwesome'
 import { COLORS } from '../components/constants'
 import { Linking } from 'react-native'
-// import AsyncStorage from '@react-native-async-storage/async-storage'
+import AsyncStorage from '@react-native-async-storage/async-storage'
 const width = Dimensions.get('window').width
 const height = Dimensions.get('window').height
-// const clearOnBoarding = async () => {
-//     try {
-//         await AsyncStorage.removeItem('alreadyLaunched')
+const clearOnBoarding = async () => {
+    try {
+        await AsyncStorage.removeItem('alreadyLaunched')
 
-//     } catch (err) {
-//         console.log('error alreadyLaunched', err)
+    } catch (err) {
+        console.log('error alreadyLaunched', err)
 
-//     }
-// }
+    }
+}
 class SettingsScreen extends Component {
     render() {
         return (
             <View style={[styles.container, { justifyContent: 'space-between' }]}>
                 <View style={{ justifyContent: 'center', alignSelf: 'center', width: width }}>
-                    {/* <Button onPress={clearOnBoarding}>clear</Button> */}
+                    <Button onPress={clearOnBoarding} style={{ height: 190 }}>clear</Button>
                     <View style={{ padding: 25, }}>
                         <View style={{ alignItems: 'center', justifyContent: 'space-between', flexDirection: 'row' }}>
                             <Text style={{ fontSize: width * 0.05 }}>Font Size</Text>
