@@ -17,6 +17,8 @@ export const PROGRAM_DATA = [
         title: 'Morning Manna - GauTV',
         speaker: 'Pr Z Thikazi',
         bgColor: `${COLORS.secondary}`,
+
+
     },
     {
         startTime: '10:00',

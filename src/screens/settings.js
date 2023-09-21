@@ -23,7 +23,7 @@ class SettingsScreen extends Component {
         return (
             <View style={[styles.container, { justifyContent: 'space-between' }]}>
                 <View style={{ justifyContent: 'center', alignSelf: 'center', width: width }}>
-                    <Button onPress={clearOnBoarding} style={{ height: 190 }}>clear</Button>
+                    {/* <Button onPress={clearOnBoarding} style={{ height: 190 }}>clear</Button> */}
                     <View style={{ padding: 25, }}>
                         <View style={{ alignItems: 'center', justifyContent: 'space-between', flexDirection: 'row' }}>
                             <Text style={{ fontSize: width * 0.05 }}>Font Size</Text>
